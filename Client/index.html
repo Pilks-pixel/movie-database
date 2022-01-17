@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/style.css">
+    <script src="./static/script.js" defer></script>
+    <title>Movie Database</title>
+</head>
+<body>
+    <div>
+        <h1>Movie Data</h1>
+        <form  class="search" >
+        
+            <input type="button" id="search-btn" value="see all movies" class="btn btn-info rounded-pill btn-lg">
+            <br>
+
+            
+        </form>
+        <form action="" id="create" class="form-group-pt-2">
+            <h3>Add movies</h3>
+            <div class="row gy-2 gx-3 align-items-center">
+                <div class="col-4">
+                <input type="text" placeholder="title" name="title" id="title" class="form-control">
+                </div>
+                <div class="col-4">
+                    <input type="text" placeholder="actor" name="actor" id="actor" class="form-control">
+                </div>
+                <div class="col-3">
+                    <input type="text" placeholder="year of production" name="year" id="year" class="form-control">
+                </div>
+            </div>
+            <input type="submit" id="createbtn" class="btn btn-info rounded">
+            
+        </form>
+        <hr>
+</div>
+    <div class="container">
+        <div class="row">
+            <article id="showmovie" class="col">  
+            </article>
+        </div>
+    </div>
+</body>
+<footer></footer>
+</html>

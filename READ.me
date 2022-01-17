@@ -1,0 +1,20 @@
+###
+Access Postgres database
+- docker start movies-db
+- docker exec -it movies-db psql -U postgres
+
+
+In PSQL shell
+- \i code/db/movies.sql
+- SELECT * FROM movies;
+
+Wins
+- Server set up with express.
+- Database data sent to Postgres from movies.sql file.
+- MVC model set up with routes for GET & POST requests.
+- Client displays data from Server.
+- Read and Create operations running.
+- Bootstrap implemented in form.
+
+Challenges
+- Unable to get delete operation working
